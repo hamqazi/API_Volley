@@ -39,6 +39,12 @@ public class MainActivity extends AppCompatActivity
                     {
                         localities.append(data.get(index) + "\n");
                     }
+                   /* JSONArray data = response.getJSONArray("names");
+                    localities.append("Names:\n\n");
+                    for (int index = 0; index < data.length(); index++)
+                    {
+                        localities.append(data.get(index) + "\n");
+                    }*/
                     System.err.println(data);
                 }
                 catch (JSONException e)
